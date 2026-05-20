@@ -8,18 +8,6 @@ data_dict = {
 
 df1 = pd.DataFrame(data_dict)
 
-data_list = [
-    ["Apple", 30, 100],
-    ["Banana", 20, 150],
-    ["Orange", 25, 80],
-    ["Mango", 60, 60],
-    ["Grape", 45, 90],
-    ["Guava", 35, 54]
-]
-
-df2 = pd.DataFrame(data_list, columns=["Product", "Price", "Sales"])
-
-
 print(df1.head())
 print(df1.tail())
 print(df1.shape)
